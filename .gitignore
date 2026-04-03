@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Project specific data (generated)
+gemini_skill/references/*
+!gemini_skill/references/.gitkeep
+
+# Exclude any other generated files
+*.jsonl
+*.zip
+chronicle_rulesets_md_files/
+
+# OS files
+.DS_Store
